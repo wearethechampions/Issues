@@ -1,0 +1,216 @@
+<html>
+<head>
+	<title> Marcos </title>
+	<style>
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.bg{
+    background-image: url("martial.jpg");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav {
+    list-style-type: none;
+    padding-top: 0px;
+	padding-right: 125px;
+    overflow: hidden;
+    background-color: #2f2e2e;
+	height: 50px;
+}
+#nav-float {
+    float: right;
+}
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 20px;
+}
+.active {
+    background-color: grey;
+	display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 20px;
+}
+li a:hover {
+    background-color: grey;
+}
+.container {
+	position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+    margin-top: 25px;
+	height: auto;
+   overflow: hidden;
+}
+.left-half {
+  float: left;
+  width: 65%;
+}
+.right-half {
+  float: left;
+  width: 35%;
+}
+#title {
+  color: black;
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 2px;
+   text-align: center;
+   font-weight: bold;
+   line-height: 100%;
+   background: #a6a6a6;
+   border: solid;
+   opacity: 0.89;
+   border-radius: 5px;
+   padding: 8px;
+}
+#subtext {
+  color: black;
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  line-height: 150%;
+}
+.caption {
+  color: #999999;
+  font-size: 12px;
+  line-height: 140%;
+}
+.read-more-state {
+  display: none;
+}
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+.design {
+  padding: 2%;
+  background: silver;
+  border: 1px solid black;
+  border-radius: .25em;
+}
+article {
+  margin-right: 40px;
+}
+.highlight {
+   background-color: #2f2e2e;
+   padding: 13px;
+   color: white;
+  font-size: 20px;
+  position: relative;
+  font-family: Verdana, Geneva, sans-serif;
+}
+ a.nounderline {text-decoration: none; }
+	</style>
+</head>
+
+	<body>
+	<div class="bg">
+	<nav>
+		<ul id="nav">
+			<li id="nav-float"><a class="a" href="#"> <input type="text" name="search" placeholder="Search.."> </a></li> 
+			<li id="nav-float"><a class="a" href="#"> REFERENCE </a></li>
+			<li id="nav-float"><a class="a" href="#"> YOUR SAY </a></li>
+			<li id="nav-float"><a class="a" href="#"> AUTHORS' OPINION </a></li>
+			<li id="nav-float"><a class="a" href="#"> ISSUES </a></li>
+			<li id="nav-float"><a class="a" href="gallery.html"> MARTIAL LAW </a></li>
+			<li id="nav-float"><a class="a" href="#"> BIOGRAPHY </a></li>
+			<li id="nav-float"><a class="active" href="#"> HOME </a></li>
+		</ul>
+	</nav>
+	</div>
+	<br>
+	<section class="container">
+		<p id="title">ISSUES</p>
+		<br>
+		<div class="left-half">
+			<figure>
+				<img src="atrocities.jpg">
+				<figcaption class="caption"><i>Police dispersal of workers protest during Martial Law.</i></figcaption> 
+			</figure>
+			<br>
+			<article>
+				<a href="atrocities.html" class="nounderline"><span class="highlight">ATROCITIES</span></a>
+				<div>
+				<br>
+				<input type="checkbox" class="read-more-state" id="post-1" />
+				<p class="read-more-wrap design" id="subtext">The atrocious human rights violations conferred by the Marcos rule against the Filipino people are  all around reported and documented and the poor economic performance of the Marcos dictatorship is recorded as well in researches.<span class="read-more-target">The proof of the loot committed by the dictator and his cronies is obviously uncovered in Supreme Court decisions like GR No. 152154 (July 15, 2003). An alleged 3,257 additional legal killings and about 35,000 casualties of torture is generally related to Ferdinand Marcos' 21-year dictatorship with a ravaging of Philippine resources and a serious human rights record. Documentations and records amid the marcos' rule are confirmed: </span></p>
+			<label for="post-1" class="read-more-trigger"></label> </span>
+				</div>
+			</article>
+			<br>
+			<br>
+			<br>
+		</div>
+		<div class="right-half">
+			<article>
+				<img src="corruption.jpg">
+				<br>
+				<br>
+				<a href="index.html" class="nounderline"><span class="highlight">THE ILL GOTTEN WEALTH</span></a>
+				<br>
+				<br>
+				<p id="subtext">Recovering Marcos’ ill-gotten wealth.</p>
+			</article>
+			<br>
+			<br>
+			<hr>
+			<br>
+			<article>
+				<img src="medals.jpg" width="300" height="400">
+				<br>
+				<br>
+				<a href="records.html" class="nounderline"><span class="highlight">FAKE MILITARY RECORDS</span></a>
+				<br>
+				<br>
+				<p id="subtext">President Marcos was said to have faked his military records in WWII, the US Army confirmed in the 1980’s.</p>
+			</article>
+			<br>
+			<br>
+			<br>
+			<hr>
+			<br>
+		</div>
+	</section>
+	</body>
+</html>
